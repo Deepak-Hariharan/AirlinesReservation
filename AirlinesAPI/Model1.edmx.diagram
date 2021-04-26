@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cbefd184d4c14b61a375419b9f55dd6d" Name="Diagram1">
+        <EntityTypeShape EntityType="AssignmentDBModel.Flight" Width="1.5" PointX="0.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssignmentDBModel.FlightSchedule" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssignmentDBModel.ReservationDetail" Width="1.5" PointX="7.5" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="AssignmentDBModel.ReservationMaster" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="AssignmentDBModel.FK__FlightSch__Fligh__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="AssignmentDBModel.FK__ReservationMaste__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="AssignmentDBModel.FK__Reservati__PNRNo__2F10007B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
